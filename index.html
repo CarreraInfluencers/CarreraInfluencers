@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body style="background-color:rgb(50, 30, 82);">
+  <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Ver_1.4.loader.js";
+      var loaderUrl = buildUrl + "/2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Ver_1.4.data",
-        frameworkUrl: buildUrl + "/Ver_1.4.framework.js",
-        codeUrl: buildUrl + "/Ver_1.4.wasm",
+        dataUrl: buildUrl + "/2.data",
+        frameworkUrl: buildUrl + "/2.framework.js",
+        codeUrl: buildUrl + "/2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "CDI",
         productName: "Carrera Influencers",
